@@ -1,0 +1,466 @@
+{
+  "main": {
+    "id": "062d17a070d2b0ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "f74dc6b2f5c68011",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d7dc46dab4b4bb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Table of contents.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Table of contents"
+            }
+          },
+          {
+            "id": "9962dfe4bb7767c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          },
+          {
+            "id": "34b28c22237c7d70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Facts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Facts"
+            }
+          },
+          {
+            "id": "c44f0b4d0487c042",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concepts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Concepts"
+            }
+          },
+          {
+            "id": "a6ac70a24c8273af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Namespaces.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Namespaces"
+            }
+          },
+          {
+            "id": "ea53a38741dfb36d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Units.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Units"
+            }
+          },
+          {
+            "id": "fc558a2aaaa25ebf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Contexts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Contexts"
+            }
+          },
+          {
+            "id": "8c045356fbabcbdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XBRL Instance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "XBRL Instance"
+            }
+          },
+          {
+            "id": "f16f83d2658e3f7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Adding aspects.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Adding aspects"
+            }
+          },
+          {
+            "id": "a46e3f0f619f3203",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Taxonomy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Taxonomy"
+            }
+          },
+          {
+            "id": "477a1132decc37bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entrypoints and Linkbases.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Entrypoints and Linkbases"
+            }
+          },
+          {
+            "id": "71f9b4a006de2f89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Labels, documentation and references.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Labels, documentation and references"
+            }
+          },
+          {
+            "id": "5a6e6cf8fd73d7ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Presentation, abstract Concepts and Linkroles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Presentation, abstract Concepts and Linkroles"
+            }
+          },
+          {
+            "id": "91066c14462adcad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dimensions, domains and members.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dimensions, domains and members"
+            }
+          },
+          {
+            "id": "05bd7c5c0c472908",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hypercubes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hypercubes"
+            }
+          },
+          {
+            "id": "3557c40cd3909268",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dimensional validity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dimensional validity"
+            }
+          },
+          {
+            "id": "0b63329862e6faa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Table linkbase.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Table linkbase"
+            }
+          },
+          {
+            "id": "4098d015b672aced",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calculations and formula.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calculations and formula"
+            }
+          },
+          {
+            "id": "d9ae3d567e6e7575",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glossary"
+            }
+          },
+          {
+            "id": "5f37ed891e313def",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Useful books, websites and tools.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Useful books, websites and tools"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa1e8068e0685597",
+    "type": "split",
+    "children": [
+      {
+        "id": "15d8afa45364b82d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5df200163f31b613",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c7afa0c9dfd4c997",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "pwc",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b44aea45d6491947",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1a40294e3375b079",
+    "type": "split",
+    "children": [
+      {
+        "id": "de8ef7700d514bee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e49827fc3f44abe5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Table of contents.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Table of contents"
+            }
+          },
+          {
+            "id": "b6500920d56500b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Useful books, websites and tools.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Useful books, websites and tools"
+            }
+          },
+          {
+            "id": "1a751e94c70a5c6e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "652c5cc3eb76aebe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Useful books, websites and tools.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Useful books, websites and tools"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f16f83d2658e3f7d",
+  "lastOpenFiles": [
+    "Namespaces.md",
+    "Useful books, websites and tools.md",
+    "Introduction.md",
+    "Facts.md",
+    "Calculations and formula.md",
+    "Glossary.md",
+    "Table linkbase.md",
+    "Dimensional validity.md",
+    "Hypercubes.md",
+    "Adding aspects.md",
+    "Dimensions, domains and members.md",
+    "Labels, documentation and references.md",
+    "Contexts the complete version.md",
+    "Presentation, abstract Concepts and Linkroles.md",
+    "Entrypoints and Linkbases.md",
+    "XBRL Instance.md",
+    "Taxonomy.md",
+    "Units.md",
+    "Concepts.md",
+    "Table of contents.md",
+    "Contexts.md",
+    "_temp.html",
+    "Labels, Documentation and references.md",
+    "Welcome.md"
+  ]
+}
