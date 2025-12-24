@@ -1,5 +1,5 @@
 #!/bin/bash
-pandoc -s metadata.yaml \
+pandoc -s metadata.yaml -V classoption=oneside --top-level-division=chapter --number-sections --toc-depth=1 --to=epub \
 	  xBRL-Quickguide/Introduction.md \
 	  xBRL-Quickguide/Facts.md \
 	  xBRL-Quickguide/Concepts.md \
@@ -17,7 +17,9 @@ pandoc -s metadata.yaml \
 	  xBRL-Quickguide/Calculations\ and\ formula.md \
 	  xBRL-Quickguide/Glossary.md \
 	  xBRL-Quickguide/Useful\ books\,\ websites\ and\ tools.md \
-	  -o quickguide.epub \
+	  -o xbrl-quickguide.epub \
+	  --epub-cover-image="cover.png" \
+	  --css="epub.css" \
 	  --toc \
           --variable colorlinks="true" \
           --variable code-block-font-size="\\footnotesize" \
