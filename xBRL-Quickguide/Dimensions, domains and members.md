@@ -30,22 +30,22 @@ How this table gets defined and build in taxonomy terms will be discussed later.
 ```
 If we now look at the table we see that there is an extra layer of header labels, and an extra column to hold the grand total. 
 
-|      |     |        |      | All colors |
-| ---- | --: | -----: | ---: | ---------: |
-|      | Red | Yellow | Blue |            |
-| yoyo |   3 |      2 |    5 |         10 |
+|      |     |        |      | All colours |
+| ---- | --: | -----: | ---: | ----------: |
+|      | Red | Yellow | Blue |             |
+| yoyo |   3 |      2 |    5 |          10 |
 
 We could go further, we could add a `primary color` member, which would act as a domain for red, yellow and blue, and `other color` to count the newly started silver and gold line.
 
-|      |     |        |               |        |             | All colors<br> |
-| ---- | --: | -----: | ------------: | -----: | ----------: | -------------: |
-|      |     |        | Primary color |        | Other color |                |
-|      | Red | Yellow |          Blue | Silver |        Gold |                |
-| Yoyo |   3 |      2 |             5 |      2 |           2 |             14 |
+|      |     |        |               |        |             | All colours     |
+| ---- | --: | -----: | ------------: | -----: | ----------: | --------------: |
+|      |     |        | Primary color |        | Other color |                 |
+|      | Red | Yellow |          Blue | Silver |        Gold |                 |
+| Yoyo |   3 |      2 |             5 |      2 |           2 |              14 |
 
-So dimensions add an axis to the data, the members of the dimension is where we report on. In this case, we knew before hand which colors we produce, so the amount of possible members is finite. We can declare every color we produce in our taxonomy and we can report on each one of them. When all members of a dimension are known and defined in the taxonomy we speak of an *explicit dimension*.
+So dimensions add an axis to the data, the members of the dimension is where we report on. In this case, we knew before hand which colours we produce, so the amount of possible members is finite. We can declare every colour we produce in our taxonomy and we can report on each one of them. When all members of a dimension are known and defined in the taxonomy we speak of an *explicit dimension*.
 
-But it also happens that the number of possibilities can not be known beforehand. Think of a report where we have to specify the income of each board member. We would report this for instance on a concept `income`. And we would create a `boardMemberDimension` dimension. So far this is identical to the colors dimension. But it is impossible for the taxonomy writer to know all the names of all the board members within all reporting companies. So the members for this dimension are absent in the taxonomy. 
+But it also happens that the number of possibilities can not be known beforehand. Think of a report where we have to specify the income of each board member. We would report this for instance on a concept `income`. And we would create a `boardMemberDimension` dimension. So far this is identical to the colours dimension. But it is impossible for the taxonomy writer to know all the names of all the board members within all reporting companies. So the members for this dimension are absent in the taxonomy. 
 
 These kind of dimensions are called *typed dimensions*. They do not dictate a finite list of options but instead offer a `type`. For example `string255`. Which means, in this case, that the name of the director must filled in, and must be a string of maximum 255 characters. Typed dimensions are in most cases of a text item type of some sort.  
 

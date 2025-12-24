@@ -24,5 +24,4 @@ pandoc -s metadata.yaml -V classoption=oneside --top-level-division=chapter --nu
           --variable colorlinks="true" \
           --variable code-block-font-size="\\footnotesize" \
           --variable monobackgroundcolor="cccccc" \
-	  -H packages.sty \
 	  --highlight-style=tango 
