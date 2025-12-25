@@ -29,6 +29,8 @@ jobs:
           path: xbrl-quickguide.pdf
       - name: "Create Release"
         uses: softprops/action-gh-release@v2.5.0
+        env:
+        	GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: xbrl-quickguide.pdf
           draft: false
