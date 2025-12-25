@@ -28,10 +28,10 @@ jobs:
           name: xBRL-Quickguide
           path: xbrl-quickguide.pdf
       - name: "Create Release"
-        uses: pipe-cd/actions-gh-release@v2.6.0
+        uses: ncipollo/release-action@v1
         with:
-          release_filefile: xbrl-quickguide.pdf
+          artifacts: xbrl-quickguide.pdf
           draft: false
           body: "Update after merge"
-          tag_name: ${{ github.ref }}
+          tag: ${{ github.ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
