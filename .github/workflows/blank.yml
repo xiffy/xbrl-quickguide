@@ -1,0 +1,20 @@
+name: Build books
+
+on:
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Install pandoc, xelatex, latex"
+        run: |
+          apt-get update
+          apt-get upgrade
+          apt-get install pandoc latex texlive-base texlive-latex-base texlive-xetex texlive-latex-recommended  texlive-fonts-extra
+      - name: Chackout
+        uses: actions/checkout@v4
+      - name: Build pdf
+        run: ./pdf.sh
