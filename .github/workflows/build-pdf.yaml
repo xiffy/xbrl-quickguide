@@ -22,7 +22,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: xBRL-Quickguide.pdf
+          name: xBRL-Quickguide
           path: xbrl-quickguide.pdf
       - name: "Create Release"
         uses: softprops/action-gh-release@v2.5.0
@@ -31,5 +31,7 @@ jobs:
           draft: false
           body: "Update after merge"
           generate_release_notes: true
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref }}
 
 
