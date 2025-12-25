@@ -18,4 +18,4 @@ jobs:
       - name: Move template
         run: mkdir -p ~/.pandoc/templates; cp eisvogel.latex ~/.pandoc/templates
       - name: Build pdf
-        run: ./pdf.sh
+        run: chmod +x pdf.sh && ./pdf.sh
