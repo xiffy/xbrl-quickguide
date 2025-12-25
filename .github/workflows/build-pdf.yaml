@@ -12,8 +12,10 @@ jobs:
       - name: "Install pandoc, xelatex, latex"
         run: |
           sudo apt-get update
-          sudo apt-get install pandoc latex texlive-base texlive-latex-base texlive-xetex texlive-latex-recommended  texlive-fonts-extra
+          sudo apt-get install pandoc texlive-base texlive-latex-base texlive-xetex texlive-latex-recommended  texlive-fonts-extra
       - name: Chackout
         uses: actions/checkout@v4
+      - name: Move template
+        run: mkdir -p ~/.pandoc/templates; cp eisvogel.latex ~/.pandoc/templates
       - name: Build pdf
         run: ./pdf.sh
