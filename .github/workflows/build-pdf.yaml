@@ -28,7 +28,7 @@ jobs:
           name: xBRL-Quickguide
           path: xbrl-quickguide.pdf
       - name: "Create Release"
-        uses: uses: pipe-cd/actions-gh-release@v2.3.4
+        uses: pipe-cd/actions-gh-release@v2.3.4
         with:
           release_filefile: xbrl-quickguide.pdf
           draft: false
