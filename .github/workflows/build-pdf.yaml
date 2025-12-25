@@ -30,7 +30,9 @@ jobs:
           files: xbrl-quickguide.pdf
           draft: false
           body: "Update after merge"
-          generate_release_notes: false
+          generate_release_notes: true
           tag_name: ${{ github.ref }}
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
