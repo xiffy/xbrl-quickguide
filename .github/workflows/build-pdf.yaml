@@ -28,12 +28,10 @@ jobs:
           name: xBRL-Quickguide
           path: xbrl-quickguide.pdf
       - name: "Create Release"
-        uses: softprops/action-gh-release@v2.5.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: uses: pipe-cd/actions-gh-release@v2.3.4
         with:
-          files: xbrl-quickguide.pdf
+          release_filefile: xbrl-quickguide.pdf
           draft: false
           body: "Update after merge"
           tag_name: ${{ github.ref }}
-          token: ${{ secrets.XBRLQUICKGUIDE }}
+          token: ${{ secrets.GITHUB_TOKEN }}
