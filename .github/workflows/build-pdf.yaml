@@ -20,7 +20,7 @@ jobs:
       - name: Build pdf
         run: sudo chmod +x pdf.sh && sudo ./pdf.sh
       - name: Upload artifact
-        uses: actions/upload-artifacts@v4
+        uses: actions/upload-artifact@v4
         with:
           name: xBRL-Quickguide.pdf
           path: xbrl-quickguide.pdf
