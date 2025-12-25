@@ -24,3 +24,12 @@ jobs:
         with:
           name: xBRL-Quickguide.pdf
           path: xbrl-quickguide.pdf
+      - name: "Create Release"
+        uses: softprops/action-gh-release@v2.5.0
+        with:
+          files: xbrl-quickguide.pdf
+          draft: false
+          body: "Update after merge"
+          generate_release_notes: true
+
+
